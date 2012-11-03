@@ -1,0 +1,15 @@
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\bin\Debug\WorkflowCodeProject.dll
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\bin\Debug\WorkflowCodeProject.pdb
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\obj\Debug\WorkflowCodeProject.dll
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\obj\Debug\WorkflowCodeProject.pdb
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\bin\Debug\WorkflowCodeProject.dll
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\bin\Debug\WorkflowCodeProject.pdb
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\obj\Debug\WorkflowCodeProject.dll
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.NetFramework\obj\Debug\WorkflowCodeProject.pdb
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.NetFramework\bin\Debug\WorkflowCodeProject.dll
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.NetFramework\bin\Debug\WorkflowCodeProject.pdb
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.NetFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.NetFramework\obj\Debug\WorkflowCodeProject.dll
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.NetFramework\obj\Debug\WorkflowCodeProject.pdb

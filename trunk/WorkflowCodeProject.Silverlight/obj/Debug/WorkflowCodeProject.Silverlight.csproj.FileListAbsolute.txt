@@ -1,0 +1,15 @@
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\Bin\Debug\WorkflowCodeProject.dll
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\Bin\Debug\WorkflowCodeProject.pdb
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\obj\Debug\WorkflowCodeProject.dll
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\obj\Debug\WorkflowCodeProject.pdb
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\obj\Debug\WorkflowCodeProject.dll
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\obj\Debug\WorkflowCodeProject.pdb
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\Bin\Debug\WorkflowCodeProject.dll
+C:\Projects\WorkflowCodeSolution\WorkflowCodeProject.Silverlight\Bin\Debug\WorkflowCodeProject.pdb
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.Silverlight\Bin\Debug\WorkflowCodeProject.dll
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.Silverlight\Bin\Debug\WorkflowCodeProject.pdb
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.Silverlight\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.Silverlight\obj\Debug\WorkflowCodeProject.dll
+C:\Users\ITretyakov\Documents\Visual Studio 2010\Projects\WorkflowCodeSolution.3\WorkflowCodeProject.Silverlight\obj\Debug\WorkflowCodeProject.pdb
