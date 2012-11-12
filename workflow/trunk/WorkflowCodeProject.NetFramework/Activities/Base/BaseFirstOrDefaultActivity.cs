@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using WorkflowCodeProject.Code;
 
 namespace WorkflowCodeProject.Activities.Base
 {
@@ -36,16 +37,11 @@ namespace WorkflowCodeProject.Activities.Base
 		public override BaseActivity GetNextActivity()
 		{
 			var activityWithConditionQueue = ActivityWithConditionQueue;
-			var defaultActivity = DefaultActivity;
+            var defaultActivity = DefaultActivity ?? FuncHelper<BaseActivity>.DoNothingReturnDefault;
 
 			if (activityWithConditionQueue == null)
 			{
 				// Have no activities queue.
-
-				if (defaultActivity == null)
-				{
-					return null;
-				}
 
 				return defaultActivity();
 			}
