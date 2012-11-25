@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WorkflowCodeProject.Silverlight")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("WorkflowCode for Silverlight")]
+[assembly: AssemblyDescription("Workflow in a Code framework - http://workflowcode.codeplex.com")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WorkflowCodeProject.Silverlight")]
+[assembly: AssemblyCompany("it3xl.com")]
+[assembly: AssemblyProduct("WorkflowCode")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
