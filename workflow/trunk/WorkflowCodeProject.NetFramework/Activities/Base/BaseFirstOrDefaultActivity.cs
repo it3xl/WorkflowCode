@@ -20,7 +20,7 @@ namespace WorkflowCodeProject.Activities.Base
 		/// Properties with the Dummy suffix used to simplify editing and replacement of appropriate
 		///  properties without this suffix. You may ignore it.
 		/// </summary>
-		public Queue<ConditionAndActivity> ActivityWithConditionQueueDummy { get; set; }
+		public Queue<ConditionAndActivity> DummyActivityWithConditionQueue { get; set; }
 
 		/// <summary>
 		/// The default activity that will be executed if the <see cref="ActivityWithConditionQueue"/> has no satisfactory activity.<para/>
@@ -32,7 +32,7 @@ namespace WorkflowCodeProject.Activities.Base
 		/// Properties with the Dummy suffix used to simplify editing and replacement of appropriate
 		///  properties without this suffix. You may ignore it.
 		/// </summary>
-		public Func<BaseActivity> DefaultActivityDummy { get; set; }
+		public Func<BaseActivity> DummyDefaultActivity { get; set; }
 
 		public override BaseActivity GetNextActivity()
 		{
