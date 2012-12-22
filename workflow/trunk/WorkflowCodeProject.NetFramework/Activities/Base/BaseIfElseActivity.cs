@@ -18,7 +18,7 @@ namespace WorkflowCodeProject.Activities.Base
 		/// Properties with the Dummy suffix used to simplify editing and replacement of appropriate
 		///  properties without this suffix. You may ignore it.
 		/// </summary>
-		public Func<bool> IfDummy { get; set; }
+		public Func<bool> DummyIf { get; set; }
 
 		/// <summary>
 		/// Activity, which will be executed if the <see cref="If"/> method return the true.
@@ -29,7 +29,7 @@ namespace WorkflowCodeProject.Activities.Base
 		/// Properties with the Dummy suffix used to simplify editing and replacement of appropriate
 		///  properties without this suffix. You may ignore it.
 		/// </summary>
-		public Func<BaseActivity> TrueDummy { get; set; }
+		public Func<BaseActivity> DummyTrue { get; set; }
 
 
 		/// <summary>
@@ -41,7 +41,7 @@ namespace WorkflowCodeProject.Activities.Base
 		/// Properties with the Dummy suffix used to simplify editing and replacement of appropriate
 		///  properties without this suffix. You may ignore it.
 		/// </summary>
-		public Func<BaseActivity> FalseDummy { get; set; }
+		public Func<BaseActivity> DummyFalse { get; set; }
 
 		public override BaseActivity GetNextActivity()
 		{

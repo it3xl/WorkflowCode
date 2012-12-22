@@ -17,7 +17,7 @@ namespace WorkflowCodeProject.Activities.Base
 		/// Properties with the Dummy suffix used to simplify editing and replacement of appropriate
 		///  properties without this suffix. You may ignore it.
 		/// </summary>
-		public Func<BaseActivity> NextActivityFuncDummy { get; set; }
+		public Func<BaseActivity> DummyNextActivityFunc { get; set; }
 		
 		public override BaseActivity GetNextActivity()
 		{
