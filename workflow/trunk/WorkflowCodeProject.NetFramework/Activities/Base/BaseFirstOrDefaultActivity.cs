@@ -37,7 +37,7 @@ namespace WorkflowCodeProject.Activities.Base
 		public override BaseActivity GetNextActivity()
 		{
 			var activityWithConditionQueue = ActivityWithConditionQueue;
-            var defaultActivity = DefaultActivity ?? FuncHelper<BaseActivity>.DoNothingReturnDefault;
+			var defaultActivity = DefaultActivity ?? FuncHelper<BaseActivity>.DoNothingReturnDefault;
 
 			if (activityWithConditionQueue == null)
 			{
