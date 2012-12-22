@@ -109,6 +109,9 @@
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Triggered\TriggeredSequentialActivity.cs">
       <Link>Activities\Triggered\TriggeredSequentialActivity.cs</Link>
     </Compile>
+    <Compile Include="..\WorkflowCodeProject.NetFramework\Code\FuncHelper.cs">
+      <Link>Code\FuncHelper.cs</Link>
+    </Compile>
     <Compile Include="..\WorkflowCodeProject.NetFramework\PushWorkflowActivity.cs">
       <Link>PushWorkflowActivity.cs</Link>
     </Compile>
