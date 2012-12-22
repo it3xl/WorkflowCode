@@ -23,7 +23,7 @@ namespace WorkflowCodeProject.Activities.Base
 		/// Properties with the Dummy suffix used to simplify editing and replacement of appropriate
 		///  properties without this suffix. You may ignore it.
 		/// </summary>
-		public Action ActionDummy { get; set; }
+		public Action DummyAction { get; set; }
 
 		/// <summary>
 		/// Запустить действие активности.
