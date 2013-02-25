@@ -3,7 +3,7 @@ namespace WorkflowCodeProject.Activities.Base
 	/// <summary>
 	/// The Infinit activity.
 	/// </summary>
-	public class BaseInfinitActivity : BaseActivity
+	public abstract class BaseInfinitActivity : BaseActivity
 	{
 		public override BaseActivity GetNextActivity()
 		{
