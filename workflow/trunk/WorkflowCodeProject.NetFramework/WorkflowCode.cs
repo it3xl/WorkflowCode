@@ -46,31 +46,12 @@ namespace WorkflowCodeProject
 		/// </summary>
 		private BaseActivity GlobalNextActivityForRecursion { get; set; }
 
-		private static bool _debuggerBreak;
-
 		/// <summary>
 		/// For debugging purpose only.
 		/// Set it to the true value in the debugger for instruct to stop (break)
 		///  before any even empty <see cref="BaseActivity"/>.<see cref="BaseActivity.Action"/> execution.
 		/// </summary>
-		public static bool DebuggerBreak
-		{
-			get
-			{
-				if (Debugger.IsAttached == false)
-				{
-					// Use the return false statement If no the debug mode due to the ASP.NET Development Server bug.
-					// It behave like a crash instead to ignore the Debugger.Break() statement.
-					return false;
-				}
-
-				return _debuggerBreak;
-			}
-			set
-			{
-				_debuggerBreak = value;
-			}
-		}
+		public static bool DebuggerBreak { get; set; }
 
 		/// <summary>
 		/// Locker for multithreaded scenario. For current <see cref="WorkflowCode"/> instance.

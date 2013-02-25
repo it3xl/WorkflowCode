@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
-using WorkflowCodeProject.Activities.Immediate;
+using WorkflowCodeProject.Code;
 
 namespace WorkflowCodeProject.Activities.Base
 {
@@ -28,11 +28,12 @@ namespace WorkflowCodeProject.Activities.Base
 		/// <summary>
 		/// Запустить действие активности.
 		/// </summary>
+		[DebuggerStepThrough]
 		public void ExecuteActivityAction()
 		{
 			if (WorkflowCode.DebuggerBreak)
 			{
-				Debugger.Break();
+				DebuggerSafe.Break();
 			}
 
 			if (Action == null)
