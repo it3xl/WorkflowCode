@@ -64,8 +64,8 @@
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Base\BaseIfElseActivity.cs">
       <Link>Activities\Base\BaseIfElseActivity.cs</Link>
     </Compile>
-    <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Base\BaseInfinitActivity.cs">
-      <Link>Activities\Base\BaseInfinitActivity.cs</Link>
+    <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Base\BaseInfiniteActivity.cs">
+      <Link>Activities\Base\BaseInfiniteActivity.cs</Link>
     </Compile>
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Base\BaseLoopActivity.cs">
       <Link>Activities\Base\BaseLoopActivity.cs</Link>
@@ -91,6 +91,9 @@
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Immediate\ImmediateSequentialActivity.cs">
       <Link>Activities\Immediate\ImmediateSequentialActivity.cs</Link>
     </Compile>
+    <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Infinite\InfiniteActivity.cs">
+      <Link>Activities\Infinite\InfiniteActivity.cs</Link>
+    </Compile>
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Triggered\ITriggeredActivity.cs">
       <Link>Activities\Triggered\ITriggeredActivity.cs</Link>
     </Compile>
@@ -99,9 +102,6 @@
     </Compile>
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Triggered\TriggeredIfElseActivity.cs">
       <Link>Activities\Triggered\TriggeredIfElseActivity.cs</Link>
-    </Compile>
-    <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Triggered\TriggeredInfinitActivity.cs">
-      <Link>Activities\Triggered\TriggeredInfinitActivity.cs</Link>
     </Compile>
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Triggered\TriggeredLoopActivity.cs">
       <Link>Activities\Triggered\TriggeredLoopActivity.cs</Link>

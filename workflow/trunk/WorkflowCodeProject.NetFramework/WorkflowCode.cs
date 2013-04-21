@@ -106,6 +106,17 @@ namespace WorkflowCodeProject
 				return;
 			}
 
+			var infiniteActivity = nextExecutionActivity as BaseInfiniteActivity;
+			if (infiniteActivity != null)
+			{
+				if (infiniteActivity.ExecuteOnceImmediately == false)
+				{
+					return;
+				}
+
+				infiniteActivity.ExecuteOnceImmediately = false;
+			}
+
 			RunNextActivityRecursion();
 		}
 
