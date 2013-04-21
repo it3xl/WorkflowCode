@@ -43,14 +43,14 @@
     <Compile Include="Activities\Base\BaseFirstOrDefaultActivity.cs" />
     <Compile Include="Activities\Base\BaseIfElseActivity.cs" />
     <Compile Include="Activities\Base\BaseSequentialActivity.cs" />
-    <Compile Include="Activities\Base\BaseInfinitActivity.cs" />
+    <Compile Include="Activities\Base\BaseInfiniteActivity.cs" />
     <Compile Include="Activities\Immediate\IImmediateActivity.cs" />
     <Compile Include="Activities\Immediate\ImmediateFirstOrDefaultActivity.cs" />
     <Compile Include="Activities\Immediate\ImmediateIfElseActivity.cs" />
     <Compile Include="Activities\Immediate\ImmediateLoopActivity.cs" />
+    <Compile Include="Activities\Infinite\InfiniteActivity.cs" />
     <Compile Include="Activities\Triggered\TriggeredFirstOrDefaultActivity.cs" />
     <Compile Include="Activities\Triggered\TriggeredIfElseActivity.cs" />
-    <Compile Include="Activities\Triggered\TriggeredInfinitActivity.cs" />
     <Compile Include="Activities\Triggered\TriggeredLoopActivity.cs" />
     <Compile Include="Activities\Triggered\TriggeredSequentialActivity.cs" />
     <Compile Include="Activities\Immediate\ImmediateSequentialActivity.cs" />
