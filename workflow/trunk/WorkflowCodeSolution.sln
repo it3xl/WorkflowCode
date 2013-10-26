@@ -1,11 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowCodeProject.Silverlight", "WorkflowCodeProject.Silverlight\WorkflowCodeProject.Silverlight.csproj", "{A9A37ABE-4BE5-409E-8D6E-62C574D4603D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowCodeProject.NetFramework", "WorkflowCodeProject.NetFramework\WorkflowCodeProject.NetFramework.csproj", "{EA695D0A-3D77-4DE0-8D4F-35024A042377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSampleApplication", "WpfSampleApplication\WpfSampleApplication.csproj", "{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DACEDB62-E237-4B44-A3A9-8452C3F9EF5B}"
+	ProjectSection(SolutionItems) = preProject
+		CodeMap1.dgml = CodeMap1.dgml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,16 +40,6 @@ Global
 		{EA695D0A-3D77-4DE0-8D4F-35024A042377}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{EA695D0A-3D77-4DE0-8D4F-35024A042377}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EA695D0A-3D77-4DE0-8D4F-35024A042377}.Release|x86.ActiveCfg = Release|Any CPU
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Debug|x86.ActiveCfg = Debug|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Debug|x86.Build.0 = Debug|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Release|Any CPU.ActiveCfg = Release|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Release|Mixed Platforms.Build.0 = Release|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Release|x86.ActiveCfg = Release|x86
-		{2DAC418D-0C9E-4DC6-9E08-FCA2397A4907}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using WorkflowCodeProject.Code;
+using It3xl.WorkflowCodeProject.Code;
 
-namespace WorkflowCodeProject.Activities.Base
+namespace It3xl.WorkflowCodeProject.Activities.Base
 {
 	/// <summary>
 	/// The class encapsulates common functionality for all activities.

@@ -8,8 +8,8 @@
     <ProjectGuid>{EA695D0A-3D77-4DE0-8D4F-35024A042377}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WorkflowCodeProject</RootNamespace>
-    <AssemblyName>WorkflowCodeProject</AssemblyName>
+    <RootNamespace>It3xl.WorkflowCodeProject</RootNamespace>
+    <AssemblyName>It3xl.WorkflowCodeProject</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,14 +30,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>it3xl.com.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\Base\BaseFirstOrDefaultActivity.cs" />
@@ -56,7 +56,7 @@
     <Compile Include="Activities\Immediate\ImmediateSequentialActivity.cs" />
     <Compile Include="Activities\Base\BaseActivity.cs" />
     <Compile Include="Activities\Base\BaseLoopActivity.cs" />
-    <Compile Include="Activities\ConditionAndActivity.cs" />
+    <Compile Include="Activities\Base\ConditionAndActivity.cs" />
     <Compile Include="Code\DebuggerSafe.cs" />
     <Compile Include="Code\FuncHelper.cs" />
     <Compile Include="WorkflowCode.cs" />
@@ -64,7 +64,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PushWorkflowActivity.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="it3xl.com.snk" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

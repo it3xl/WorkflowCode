@@ -1,6 +1,6 @@
-using WorkflowCodeProject.Activities.Base;
+using It3xl.WorkflowCodeProject.Activities.Base;
 
-namespace WorkflowCodeProject.Activities.Immediate
+namespace It3xl.WorkflowCodeProject.Activities.Immediate
 {
 	/// <summary>
 	/// See the <see cref="BaseIfElseActivity"/> and the <see cref="IImmediateActivity"/>.

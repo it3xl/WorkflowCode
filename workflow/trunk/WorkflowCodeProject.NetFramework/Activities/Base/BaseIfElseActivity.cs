@@ -1,6 +1,6 @@
 using System;
 
-namespace WorkflowCodeProject.Activities.Base
+namespace It3xl.WorkflowCodeProject.Activities.Base
 {
 	/// <summary>
 	/// Activity that allows you to choose the next activity from the <see cref="True"/>

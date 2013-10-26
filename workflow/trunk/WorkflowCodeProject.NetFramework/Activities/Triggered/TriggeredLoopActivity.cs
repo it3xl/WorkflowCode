@@ -1,6 +1,6 @@
-using WorkflowCodeProject.Activities.Base;
+using It3xl.WorkflowCodeProject.Activities.Base;
 
-namespace WorkflowCodeProject.Activities.Triggered
+namespace It3xl.WorkflowCodeProject.Activities.Triggered
 {
 	/// <summary>
 	/// See the <see cref="BaseLoopActivity"/> and the <see cref="ITriggeredActivity"/>.
