@@ -1,4 +1,4 @@
-﻿namespace WorkflowCodeProject.Activities.Immediate
+﻿namespace It3xl.WorkflowCodeProject.Activities.Immediate
 {
 	/// <summary>
 	/// The sign of activity that will be executed immediately after the end of

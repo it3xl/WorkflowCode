@@ -1,7 +1,7 @@
 using System;
-using WorkflowCodeProject.Activities.Triggered;
+using It3xl.WorkflowCodeProject.Activities.Triggered;
 
-namespace WorkflowCodeProject.Activities.Base
+namespace It3xl.WorkflowCodeProject.Activities.Base
 {
 	/// <summary>
 	/// The base Infinit activity.<para/>

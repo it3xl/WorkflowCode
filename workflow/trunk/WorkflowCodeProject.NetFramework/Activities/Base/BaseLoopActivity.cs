@@ -1,6 +1,6 @@
 using System;
 
-namespace WorkflowCodeProject.Activities.Base
+namespace It3xl.WorkflowCodeProject.Activities.Base
 {
 	/// <summary>
 	/// The loop activity. Works like the "while" cycle.

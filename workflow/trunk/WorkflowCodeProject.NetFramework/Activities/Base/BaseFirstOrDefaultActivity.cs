@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using WorkflowCodeProject.Code;
+using It3xl.WorkflowCodeProject.Code;
 
-namespace WorkflowCodeProject.Activities.Base
+namespace It3xl.WorkflowCodeProject.Activities.Base
 {
 	/// <summary>
 	/// Allows to select next activity.<para/>

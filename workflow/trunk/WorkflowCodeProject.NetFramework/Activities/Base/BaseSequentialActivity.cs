@@ -1,6 +1,6 @@
 using System;
 
-namespace WorkflowCodeProject.Activities.Base
+namespace It3xl.WorkflowCodeProject.Activities.Base
 {
 	/// <summary>
 	/// The most simple and straightforward activity.

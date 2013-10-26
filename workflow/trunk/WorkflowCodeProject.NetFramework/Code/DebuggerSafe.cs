@@ -1,10 +1,9 @@
 ﻿using System.Diagnostics;
 
-namespace WorkflowCodeProject.Code
+namespace It3xl.WorkflowCodeProject.Code
 {
 	/// <summary>
 	/// Safe using of the <see cref="Debugger"/> functionality.
-	/// Детали в конкретных методах.
 	/// </summary>
 	public static class DebuggerSafe
 	{
@@ -16,12 +15,14 @@ namespace WorkflowCodeProject.Code
 		/// </summary>
 		public static void Break()
 		{
+#if DEBUG
 			if (Debugger.IsAttached == false)
 			{
 				return;
 			}
 
 			Debugger.Break();
+#endif
 		}
 	}
 }

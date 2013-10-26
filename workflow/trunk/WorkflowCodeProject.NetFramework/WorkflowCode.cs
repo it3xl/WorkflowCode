@@ -1,27 +1,8 @@
 ﻿using System;
-using System.Diagnostics;
-using WorkflowCodeProject.Activities.Base;
-using WorkflowCodeProject.Activities.Triggered;
+using It3xl.WorkflowCodeProject.Activities.Base;
+using It3xl.WorkflowCodeProject.Activities.Triggered;
 
-/* TODO
- * 
- *		Write samples.
- * Moving a workflow definitions to properties.
- * Changing one workflow from another.
- * Using of a dummy properties.
- * A deferred workflow activity's pushing with the PushWorkflowActivity enum.
- * Example of each workflow activity.
- * Example of two async activity in row with waiting the first form the second.
- * 
- * The infinit activity using.
- * Create a infinit recursion with multiple activities implemented with propeties.
- * The infinit recursion workflow with selection.
- * 
- * Multi Threading example.
-
-*/
-
-namespace WorkflowCodeProject
+namespace It3xl.WorkflowCodeProject
 {
 	/// <summary>
 	/// The Workflow holder.
@@ -54,7 +35,7 @@ namespace WorkflowCodeProject
 		public static bool DebuggerBreak { get; set; }
 
 		/// <summary>
-		/// Locker for multithreaded scenario. For current <see cref="WorkflowCode"/> instance.
+		/// Locker for async scenario. For current <see cref="WorkflowCode"/> instance.
 		/// </summary>
 		private readonly Object _multyThreadProtectionLocker = new Object();
 

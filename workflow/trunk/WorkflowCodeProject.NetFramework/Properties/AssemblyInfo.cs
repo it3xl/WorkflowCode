@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Workflow in a Code framework - http://workflowcode.codeplex.com")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("it3xl.com")]
-[assembly: AssemblyProduct("WorkflowCode")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyProduct("it3xl.com WorkflowCode")]
+[assembly: AssemblyCopyright("it3xl.com")]
+[assembly: AssemblyTrademark("it3xl.com WorkflowCode")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

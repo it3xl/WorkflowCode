@@ -1,7 +1,6 @@
 using System;
-using WorkflowCodeProject.Activities.Base;
 
-namespace WorkflowCodeProject.Activities
+namespace It3xl.WorkflowCodeProject.Activities.Base
 {
 	/// <summary>
 	/// Uses with the <see cref="BaseFirstOrDefaultActivity"/> to combine activity and its execution condition.

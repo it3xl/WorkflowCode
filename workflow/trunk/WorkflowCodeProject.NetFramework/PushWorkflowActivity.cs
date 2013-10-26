@@ -1,4 +1,4 @@
-namespace WorkflowCodeProject
+namespace It3xl.WorkflowCodeProject
 {
 	/// <summary>
 	/// Instructs pending operations to push workflow on a next step or not.

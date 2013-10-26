@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace WorkflowCodeProject.Code
+namespace It3xl.WorkflowCodeProject.Code
 {
     public class FuncHelper<TResult>
     {

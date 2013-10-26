@@ -9,14 +9,15 @@
     <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WorkflowCodeProject</RootNamespace>
-    <AssemblyName>WorkflowCodeProject</AssemblyName>
+    <RootNamespace>It3xl.WorkflowCodeProject</RootNamespace>
+    <AssemblyName>It3xl.WorkflowCodeProject</AssemblyName>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <SilverlightApplication>false</SilverlightApplication>
     <ValidateXaml>true</ValidateXaml>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <!-- This property group is only here to support building this project using the 
        MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
@@ -34,6 +35,7 @@
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -44,15 +46,17 @@
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>it3xl.com.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
-    <Reference Include="System.Windows" />
     <Reference Include="system" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Net" />
-    <Reference Include="System.Windows.Browser" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Base\BaseActivity.cs">
@@ -73,8 +77,8 @@
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Base\BaseSequentialActivity.cs">
       <Link>Activities\Base\BaseSequentialActivity.cs</Link>
     </Compile>
-    <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\ConditionAndActivity.cs">
-      <Link>Activities\ConditionAndActivity.cs</Link>
+    <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Base\ConditionAndActivity.cs">
+      <Link>Activities\Base\ConditionAndActivity.cs</Link>
     </Compile>
     <Compile Include="..\WorkflowCodeProject.NetFramework\Activities\Immediate\IImmediateActivity.cs">
       <Link>Activities\Immediate\IImmediateActivity.cs</Link>
@@ -123,7 +127,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="it3xl.com.snk" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
