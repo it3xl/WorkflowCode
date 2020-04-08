@@ -22,7 +22,7 @@ You know, every coding guy should have its own workflow. And this is mine and I'
     <p>
         <br/>
         The <strong>WorkflowCode</strong>'s Code Map<br>
-        <a href="http://it3xl.com/Resources_For_External/CodePlex/WorkflowCode/CodeMap.gif" target="_blank"><img title="WorkflowCode CodeMap" src="http://it3xl.com/Resources_For_External/CodePlex/WorkflowCode/CodeMap.gif" alt="WorkflowCode CodeMap" style="border:none"></a><br>
+        <a href="http://it3xl.ru/Resources_For_External/CodePlex/WorkflowCode/CodeMap.gif" target="_blank"><img title="WorkflowCode CodeMap" src="http://it3xl.ru/Resources_For_External/CodePlex/WorkflowCode/CodeMap.gif" alt="WorkflowCode CodeMap" style="border:none"></a><br>
     </p>
 </div>
 <div class="ClearBoth"></div>
